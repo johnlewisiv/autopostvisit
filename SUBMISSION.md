@@ -28,7 +28,7 @@ The app is a working Next.js workflow with a scenario selector, patient profile,
 
 ### Partner Ecosystem & Utility
 
-The project uses the hackathon photo-to-video track concept in a healthcare domain: transcript evidence plus avatar/photo asset plus generated voice/video becomes a reviewable patient education output. It includes provider hooks for OpenAI Responses, ElevenLabs TTS, and HeyGen video generation, with cached media for reliable judging.
+The project adapts the hackathon photo-to-video track concept to a healthcare workflow: transcript evidence plus avatar/photo asset plus generated voice/video becomes a reviewable patient education output. It includes provider hooks for OpenAI Responses, ElevenLabs TTS, and HeyGen video generation, with cached media for reliable judging.
 
 ### Value & Impact
 
@@ -36,7 +36,7 @@ Families often leave discharge visits overwhelmed, especially across language ba
 
 ### Innovation & Execution
 
-Instead of making another real estate app, AutoPostVisit applies the track's photo-to-video pipeline to a real clinical education problem. The novel layer is the knowledge map: the generated video is not just creative media, it is nurse-reviewable and grounded in the encounter.
+AutoPostVisit extends the photo-to-video pipeline into clinical discharge education while preserving the track's core creative challenge: transforming a source image/avatar and generated audio into a controlled video output. The novel layer is the knowledge map: the generated video is not just creative media, it is nurse-reviewable and grounded in the encounter.
 
 ## Safety And Affiliation Notes
 
@@ -56,9 +56,3 @@ Open:
 ```text
 http://localhost:3001
 ```
-
-## Required Submission Assets
-
-- Public GitHub repo: `https://github.com/johnlewisiv/autopostvisit`
-- Loom demo: paste Loom URL into the submission form after recording.
-- Project description: use the Short Description section above.
