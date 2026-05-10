@@ -2,17 +2,17 @@
 
 AutoPostVisit is a hackathon demo for personalized, nurse-reviewed post-visit custom discharge videos.
 
-After a pediatric visit, the app uses the encounter transcript and a pre-visit patient education profile to create a child-friendly video script, map each important claim back to evidence, and route the final avatar video through a nurse review dashboard before it is sent to the caregiver.
+After a pediatric visit, the app uses the encounter transcript and a pre-visit patient education profile to create a child-friendly video script, map each important claim back to evidence, and route the final video through a nurse review dashboard before it is sent to the caregiver.
 
 ## Demo Story
 
-Mateo Rivera is 7, Spanish-speaking, and newly diagnosed with type 1 diabetes. His profile says he needs a simple 2nd-grade explanation. The rushed visit transcript reveals a game-based spider-hero learning hook, which AutoPostVisit matches to a donated avatar/photo asset for a Spanish after-visit video.
+Mateo Rivera is 7, Spanish-speaking, and newly diagnosed with type 1 diabetes. His profile says he needs a simple 2nd-grade explanation. The rushed visit transcript reveals a game-based spider-hero learning hook, which AutoPostVisit matches to a donated photo asset for a Spanish after-visit video.
 
 AutoPostVisit demonstrates:
 
 - A simulated Epic-style nurse worklist and patient profile.
 - A synthetic Suki-style encounter transcript with a phone interpreter barrier.
-- A gated photo-to-video generation flow: transcript clue, avatar/photo match, nurse approval, generated dialogue, audio, and video.
+- A gated photo-to-video generation flow: transcript clue, photo match, nurse approval, generated dialogue, audio, and video.
 - Spanish child-facing dialogue with English nurse-review text.
 - Evidence references for every important generated scene.
 - A Nurse Dana review dashboard with final approval before caregiver delivery.
@@ -28,7 +28,7 @@ AutoPostVisit does not replace the nurse. It turns nurse-reviewed education into
 
 Primary track: AutoHDR Photo-to-Video / AI video pipeline.
 
-AutoPostVisit applies the photo-to-video pipeline to clinical discharge education while preserving the track's core requirement: turning a source image/avatar plus generated audio into a controlled video output. The important product layer is verification: the nurse can inspect the generated script next to transcript, profile, discharge, and avatar-match evidence before the caregiver receives the video.
+AutoPostVisit applies the photo-to-video pipeline to clinical discharge education while preserving the track's core requirement: turning a source image plus generated audio into a controlled video output. The important product layer is verification: the nurse can inspect the generated script next to transcript, profile, discharge, and avatar-match evidence before the caregiver receives the video.
 
 ## Run Locally
 
